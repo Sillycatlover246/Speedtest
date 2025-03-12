@@ -1,2 +1,3 @@
 # Speedtest
- Boy oh boy
+speed test written in python
+

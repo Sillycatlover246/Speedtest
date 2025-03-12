@@ -47,7 +47,7 @@ def main():
     print(f"Ping: {ping} ms")
 
     record = {
-        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), # image being american and doing %m %d %y or whatever they do
         "download_mbps": download,
         "upload_mbps": upload,
         "ping_ms": ping
